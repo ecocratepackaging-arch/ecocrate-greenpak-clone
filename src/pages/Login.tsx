@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Navigation from "@/components/Navigation";
+import ShopNavigation from "@/components/ShopNavigation";
 import { toast } from "sonner";
 import logo from "@/assets/ecocrate-logo.png";
 
@@ -28,7 +28,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <ShopNavigation />
       
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-md mx-auto">

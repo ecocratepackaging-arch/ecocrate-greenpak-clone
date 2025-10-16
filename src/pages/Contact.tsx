@@ -1,4 +1,4 @@
-import Navigation from "@/components/Navigation";
+import ShopNavigation from "@/components/ShopNavigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <ShopNavigation />
       
       {/* Hero Section */}
       <section className="bg-primary text-primary-foreground py-20">

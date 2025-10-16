@@ -13,29 +13,29 @@ const Footer = () => {
               <span className="text-xl font-bold">EcoCrate</span>
             </div>
             <p className="text-primary-foreground/80">
-              Leading provider of sustainable packaging solutions and waste recovery services.
+              Leading provider of eco-friendly takeaway packaging and supplies for restaurants, cafes, and food businesses.
             </p>
           </div>
 
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><Link to="/" className="text-primary-foreground/80 hover:text-primary-foreground">Home</Link></li>
-              <li><Link to="/products" className="text-primary-foreground/80 hover:text-primary-foreground">Products</Link></li>
-              <li><Link to="/services" className="text-primary-foreground/80 hover:text-primary-foreground">Services</Link></li>
-              <li><Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground">About Us</Link></li>
-            </ul>
-          </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                <li><Link to="/" className="text-primary-foreground/80 hover:text-primary-foreground">Home</Link></li>
+                <li><Link to="/shop" className="text-primary-foreground/80 hover:text-primary-foreground">Shop</Link></li>
+                <li><Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground">About Us</Link></li>
+                <li><Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground">Contact</Link></li>
+              </ul>
+            </div>
 
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li className="text-primary-foreground/80">Producer Compliance</li>
-              <li className="text-primary-foreground/80">Waste Recovery</li>
-              <li className="text-primary-foreground/80">Recycling Solutions</li>
-              <li className="text-primary-foreground/80">Packaging Design</li>
-            </ul>
-          </div>
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Categories</h3>
+              <ul className="space-y-2">
+                <li className="text-primary-foreground/80">Food Trays</li>
+                <li className="text-primary-foreground/80">Coffee Cups</li>
+                <li className="text-primary-foreground/80">Deli Boxes</li>
+                <li className="text-primary-foreground/80">Takeaway Packaging</li>
+              </ul>
+            </div>
 
           <div>
             <h3 className="font-semibold text-lg mb-4">Follow Us</h3>

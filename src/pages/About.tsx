@@ -1,11 +1,11 @@
-import Navigation from "@/components/Navigation";
+import ShopNavigation from "@/components/ShopNavigation";
 import Footer from "@/components/Footer";
 import { Award, Users, Leaf, Target } from "lucide-react";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <ShopNavigation />
       
       {/* Hero Section */}
       <section className="bg-primary text-primary-foreground py-20">
@@ -38,7 +38,7 @@ const About = () => {
       </section>
 
       {/* Values */}
-      <section className="bg-secondary py-16">
+      <section className="bg-muted py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
